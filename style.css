@@ -6,3 +6,52 @@ main {
 li {
     margin: 10px;
 }
+/*for Mobile*/
+@media (min-width: 300px) {
+main{
+
+font-size: 3em;
+background-color: blueviolet;
+color: cadetblue;
+
+}
+}
+
+
+
+/*for Tablets*/
+@media (min-width: 760px) {
+    main{
+    
+    font-size: 2em;
+    background-color: rgb(84, 196, 135);
+    color: rgb(67, 76, 146);
+    
+    }
+    
+    
+    }
+
+
+
+/*for Desktop*/
+    @media (min-width: 992px) {
+        main{
+        
+        font-size: 1.5em;
+        background-color: rgb(18, 16, 19);
+        color: rgb(128, 69, 133);
+        
+        }
+        li::first-letter{
+            color: antiquewhite;
+            font-weight: bolder;
+
+        }
+        
+        }
+
+
+
+
+    
